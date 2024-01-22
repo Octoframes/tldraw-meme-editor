@@ -3,8 +3,8 @@ import "@tldraw/tldraw/tldraw.css";
 // import { getAssetUrls } from "@tldraw/assets/selfHosted";
 
 export default function App() {
-  // const assetUrls = getAssetUrls();
-
+  // const assetUrls = "https://tldraw-assets.vercel.app"
+  const assetUrls = "/public/assets"
   return (
     <div
       style={{
@@ -15,8 +15,7 @@ export default function App() {
       }}
     >
       <div style={{ width: 500, height: 500 }}>
-        <Tldraw></Tldraw>
-        {/* <Tldraw assetUrls={assetUrls}></Tldraw> */}
+        <Tldraw assetUrls={assetUrls}></Tldraw>
       </div>
     </div>
   );
