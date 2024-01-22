@@ -1,8 +1,10 @@
 import { Tldraw } from "@tldraw/tldraw";
 import "@tldraw/tldraw/tldraw.css";
-import { useState } from "react";
+// import { getAssetUrls } from "@tldraw/assets/selfHosted";
 
 export default function App() {
+  // const assetUrls = getAssetUrls();
+
   return (
     <div
       style={{
@@ -14,6 +16,7 @@ export default function App() {
     >
       <div style={{ width: 500, height: 500 }}>
         <Tldraw></Tldraw>
+        {/* <Tldraw assetUrls={assetUrls}></Tldraw> */}
       </div>
     </div>
   );
