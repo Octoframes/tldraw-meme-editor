@@ -4,7 +4,7 @@ import "@tldraw/tldraw/tldraw.css";
 
 export default function App() {
   // const assetUrls = "https://tldraw-assets.vercel.app"
-  const assetUrls = "/public/assets"
+  const assetUrls = "./assets"
   return (
     <div
       style={{
