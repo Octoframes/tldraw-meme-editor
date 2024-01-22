@@ -1,10 +1,8 @@
 import { Tldraw } from "@tldraw/tldraw";
 import "@tldraw/tldraw/tldraw.css";
-// import { getAssetUrls } from "@tldraw/assets/selfHosted";
 
 export default function App() {
-  // const assetUrls = "https://tldraw-assets.vercel.app"
-  const assetUrls = "./assets"
+  const assetUrls = "/public"
   return (
     <div
       style={{
