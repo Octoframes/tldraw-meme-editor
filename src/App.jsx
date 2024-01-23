@@ -1,3 +1,5 @@
+// this was installed with `npm i @tldraw/tldraw@2.0.0-beta.2`
+
 import { Tldraw } from "@tldraw/tldraw";
 import "@tldraw/tldraw/tldraw.css";
 
