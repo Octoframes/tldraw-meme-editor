@@ -6,7 +6,7 @@ import { getAssetUrls } from "@tldraw/assets/selfHosted";
 // based on https://discord.com/channels/859816885297741824/1197142604106698933/1202273417357692950
 import "@tldraw/tldraw/tldraw.css";
 
-const assetUrls = getAssetUrls();
+const assetUrls = getAssetUrls({baseUrl: '.'})
 
 export default function App() {
   return (
